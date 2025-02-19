@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  demo-aws-standalone-cp:
+  - annotations:
+      cluster.x-k8s.io/bootstrap-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/control-plane-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/infrastructure-aws: v1beta2
+      cluster.x-k8s.io/provider: infrastructure-aws, control-plane-k0sproject-k0smotron,
+        bootstrap-k0sproject-k0smotron
+    apiVersion: v2
+    appVersion: v1.31.2+k0s.0
+    created: "2025-02-19T15:12:12.929773493Z"
+    description: 'A kcm template to deploy a k0s cluster on AWS with bootstrapped
+      control plane nodes. '
+    digest: b07ab5740f74f26ce4a23477863659d06a77c4eda9d065a3bda18545e73f8d99
+    name: demo-aws-standalone-cp
+    type: application
+    urls:
+    - demo-aws-standalone-cp-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      cluster.x-k8s.io/bootstrap-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/control-plane-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/infrastructure-aws: v1beta2
+      cluster.x-k8s.io/provider: infrastructure-aws, control-plane-k0sproject-k0smotron,
+        bootstrap-k0sproject-k0smotron
+    apiVersion: v2
+    appVersion: v1.31.1+k0s.1
+    created: "2025-02-19T15:12:12.804602105Z"
+    description: 'An kcm template to deploy a k0s cluster on AWS with bootstrapped
+      control plane nodes. '
+    digest: 79d548dccc6d679c693f0ae47eea506af496879c823cb571bb6cb55b0876ebd2
+    name: demo-aws-standalone-cp
+    type: application
+    urls:
+    - demo-aws-standalone-cp-0.0.1.tgz
+    version: 0.0.1
+generated: "2025-02-19T15:12:12.929781869Z"
